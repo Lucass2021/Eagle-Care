@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pills.css">
+    <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Controle de Medicamentos</title>
+</head>
+
+<body>
+
+    <form method="get" action="./menu.html">
+
+        <h2>Uso de medicamentos</h2>
+
+        <h3>Paciente</h3>
+        <input id="patient-name" type="text" name="patient" placeholder="Nome do paciente">
+
+        <br>
+
+        <h3>Medicamento</h3>
+        <input id="patient-pills" type="text" name="pills" placeholder="Medicamento">
+
+        <br>
+
+        <h3>Dosagem</h3>
+        <input id="patient-dosage" type="number" name="dosage" placeholder="Quantidade da dose">
+
+        <br>
+
+        <h3>Tipo de dose</h3>
+        <select name="pills-type" id="pills">
+            <option value="tablet">Comprimido (mg)</option>
+            <option value="liquid">Liquido (ml)</option>
+
+        </select>
+
+        <br>
+
+        <h3>Período de uso</h3>
+        <input id="usage-schedule" type="number" name="usage-schedule" placeholder="Número de dias">
+
+        <br>
+
+
+        <input id="send-data" type="submit">
+
+    </form>
+
+
+    <script src="pills.js"></script>
+</body>
+
+</html>

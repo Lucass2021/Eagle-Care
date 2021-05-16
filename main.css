@@ -1,0 +1,87 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    background-image:url(./assets/login-bg-dark.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#logo{
+    height:70px;
+
+    position:relative;   
+    left:50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+}
+
+
+#sub-title{
+    color:white;
+    letter-spacing: 0.2px;
+
+    position:relative;
+    margin-left:20px;
+    margin-top:40px;
+}
+
+#start-button{
+    color:white;
+    background:#43c9c4;
+    padding: 12px 100px;
+    border:none;
+    border-radius:5px;
+
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+
+
+    left:50%;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom:20%;
+}
+
+button a {
+    color:white;
+    text-decoration:none;
+}
+
+.login{
+    position: absolute;
+    bottom:3%;
+    /* background:rgb(240, 68, 0); */
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.login p {
+color:#6d6c6c;
+letter-spacing:0.2px;
+
+}
+
+.login h3{
+    text-transform:uppercase;
+    color:#6d6c6c;
+    letter-spacing:0.2px;
+    font-weight:400;
+
+    margin-top:5px;
+    padding: 10px;
+    text-align:center;
+
+}
+
+.login h3 a{
+    color:#6d6c6c;
+    text-decoration:none;
+}
+
+
