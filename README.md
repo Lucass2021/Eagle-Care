@@ -28,11 +28,11 @@
 
 
 <h1 align="center">
-    <img src="app-image.PNG"/>
+    <img src="./assets/app-image.PNG"/>
 </h1>
 
 <h1 align="center">
-    <img src="app-image-2.PNG"/>
+    <img src="./assets/app-image-2.PNG"/>
 </h1>
 
 
@@ -43,7 +43,6 @@ This project was developed with the following technologies:
 * VS Code;
 * HTML;
 * CSS;
-* JavaScript.
 
 
 
@@ -58,12 +57,9 @@ This project is currently finished.
 
 ## :heavy_check_mark: To do list
 
-- More Products at the same page
-- Zoom out default to 67%
-- Activate Purchase button
-- Add Cart
-- Add Header
-- Add Product enhanced Description
+- Save input data
+- Add new option supplied by Medical Appointment and Drugs Control
+- Add Social Features
 
 
 ---
