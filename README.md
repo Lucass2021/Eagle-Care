@@ -13,7 +13,7 @@
 
 ## 📝 Description
 
->💻 Eagle Cara is a challenge app made for drugs and pills management related to Covid-19 virus.
+>💻 Eagle Care is a challenge app made for drugs and pills management related to Covid-19 virus.
 
 
 
